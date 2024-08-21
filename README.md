@@ -17,3 +17,27 @@ This repository contains the implementation of an Elevator Dispatching system op
 To install the required libraries, you can run:
 ```bash
 pip install numpy matplotlib
+
+## How to Run
+
+To run the Elevator Dispatching optimization code, navigate to the `src` directory in your terminal and execute the `Elevator_Dispatcher.py` script. This script initializes the elevator environment, trains the Q-learning agent, and evaluates its performance.
+
+### Steps to Run:
+1. Clone the repository to your local machine:
+    ```bash
+    git clone https://github.com/iburdo/AE4350.git
+    ```
+2. Navigate to the `src` directory:
+    ```bash
+    cd AE4350/src
+    ```
+3. Run the `Elevator_Dispatcher.py` script:
+    ```bash
+    python Elevator_Dispatcher.py
+    ```
+4. Observe the training progress and final results, which will be output in the terminal and through visualizations.
+
+### Example:
+```bash
+cd AE4350/src
+python Elevator_Dispatcher.py
