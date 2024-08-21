@@ -17,6 +17,7 @@ This repository contains the implementation of an Elevator Dispatching system op
 To install the required libraries, you can run:
 ```bash
 pip install numpy matplotlib
+```
 
 ## How to Run
 
